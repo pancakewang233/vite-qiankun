@@ -1,9 +1,10 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 </script>
 
 <template>
   <div>
-    <router-view />
+    <h1>test</h1>
   </div>
 </template>
 

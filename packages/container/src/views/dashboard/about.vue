@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <router-view />
+    456
   </div>
 </template>
 
