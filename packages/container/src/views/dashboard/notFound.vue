@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    about
+    404,无法找到页面
   </div>
 </template>
 

@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    about
+    item
   </div>
 </template>
 

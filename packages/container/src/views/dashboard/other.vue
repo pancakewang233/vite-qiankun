@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    about
+    other
   </div>
 </template>
 

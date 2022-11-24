@@ -1,11 +1,10 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
-  <div>
-    navbar
-  </div>
+    <div class="h-1/20 flex justify-center items-center text-20">
+      vite-vue3-qiankun 微前端框架
+    </div>
 </template>
 
-<style scoped>
-</style>
