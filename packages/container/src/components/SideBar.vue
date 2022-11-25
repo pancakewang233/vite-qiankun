@@ -15,7 +15,7 @@ const handleClose = (key: string, keyPath: string[]) => {
 <template>
       <div class="border border-red-500 w-1/10">
         <el-menu
-          default-active="2"
+          default-active="1"
           class="el-menu-vertical-demo"
           @open="handleOpen"
           @close="handleClose"

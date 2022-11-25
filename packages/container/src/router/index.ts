@@ -64,6 +64,16 @@ export const routes = [
                     menuShow: true
                 },
                 component: () =>import('src/views/dashboard/other.vue'),
+                children: [
+                    {
+                        path: '/other',
+                        name:'Other',
+                        meta:{
+                            menuShow: true
+                        },
+                        component: () =>import('src/views/dashboard/other.vue'),
+                    }
+                ]
             }
         ]
     },

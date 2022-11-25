@@ -7,6 +7,31 @@ import App from './App.vue'
 
 // router
 import router from './router/index'
+// qiankun 微应用router
+import { registerMicroApps, start } from 'qiankun';
+// 注册子应用
+registerMicroApps([
+    {
+      name: 'reactApp',
+      entry: '//localhost:3000',
+      container: '#container',
+      activeRule: '/app-react',
+    },
+    {
+      name: 'vueApp',
+      entry: '//localhost:3001',
+      container: '#container',
+      activeRule: '/app-vue',
+    },
+    {
+      name: 'svelteApp',
+      entry: '//localhost:3002',
+      container: '#container',
+      activeRule: '/app-svelte',
+    },
+]);
+// 启动乾坤
+start();
 
 /** 重置样式 这里引入自定义的重置样式也可 */
 import '@unocss/reset/tailwind.css'
